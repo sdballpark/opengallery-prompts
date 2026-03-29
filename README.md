@@ -1,7 +1,3 @@
-Here's a clean README for the repo:
-
----
-
 # Open Gallery Prompt Registry
 
 Community-maintained prompt library for [Open Gallery](https://github.com/sdballpark/OpenGallery) — the open source universal AI image studio.
