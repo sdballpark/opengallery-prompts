@@ -1,0 +1,467 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-03-28",
+  "curator": "Robert L. Bogan Jr.",
+  "repository": "https://github.com/sdballpark/opengallery-prompts",
+  "categories": [
+    {
+      "id": "style",
+      "label": "Style Transfer",
+      "prompts": [
+        {
+          "id": "5631d573-9133-415f-b137-a2b12c365501",
+          "text": "Transform into a Renaissance oil painting with dramatic chiaroscuro lighting and rich deep colors",
+          "recommended_model": "nano_banana_pro",
+          "difficulty": "beginner",
+          "tags": [
+            "style",
+            "classical"
+          ]
+        },
+        {
+          "id": "5cbfcdb9-1fff-4d28-b6bb-31b062c559b1",
+          "text": "Convert to watercolor with soft flowing brushstrokes warm pastel tones and visible paper texture",
+          "recommended_model": "nano_banana",
+          "difficulty": "beginner",
+          "tags": [
+            "style",
+            "watercolor"
+          ]
+        },
+        {
+          "id": "5e8d37bc-6d85-4045-be1e-098506e8278a",
+          "text": "Apply cinematic film noir aesthetic - high contrast black and white deep shadows 1940s mood",
+          "recommended_model": "nano_banana_pro",
+          "difficulty": "beginner",
+          "tags": [
+            "style",
+            "monochrome"
+          ]
+        },
+        {
+          "id": "34082595-8365-407e-9b12-6ff01ac833f5",
+          "text": "Transform into Japanese ukiyo-e woodblock print style with flat colors bold outlines and decorative patterns",
+          "recommended_model": "nano_banana",
+          "difficulty": "intermediate",
+          "tags": [
+            "style",
+            "japanese"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enhance",
+      "label": "Enhancement",
+      "prompts": [
+        {
+          "id": "0db7d8f0-f894-4b4a-ae40-76705827d426",
+          "text": "Enhance lighting to golden hour - warm directional sunlight long shadows rich amber tones",
+          "recommended_model": "nano_banana",
+          "difficulty": "beginner",
+          "tags": [
+            "lighting"
+          ]
+        },
+        {
+          "id": "1dcfe535-4479-4da7-9a41-85f30fcc58fe",
+          "text": "Remove the background completely and replace with clean neutral studio gradient for product photography",
+          "recommended_model": "nano_banana_pro",
+          "difficulty": "beginner",
+          "tags": [
+            "background"
+          ]
+        },
+        {
+          "id": "cd44c2e3-0960-4d67-9931-608977ce3de1",
+          "text": "Upscale and sharpen all details - enhance texture clarity and fine details without altering composition",
+          "recommended_model": "nano_banana",
+          "difficulty": "beginner",
+          "tags": [
+            "quality"
+          ]
+        },
+        {
+          "id": "df2ac598-bbea-4874-b00e-c2dfb1b69408",
+          "text": "Correct exposure and white balance professionally - lift shadows recover highlights perfect skin tones",
+          "recommended_model": "gemini_flash",
+          "difficulty": "beginner",
+          "tags": [
+            "color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analysis",
+      "label": "Analysis and Description",
+      "prompts": [
+        {
+          "id": "3b01b0a6-87c7-4345-be84-fc7256f04380",
+          "text": "Detailed professional analysis: composition lighting subject matter mood color palette and technical quality",
+          "recommended_model": "claude_sonnet",
+          "difficulty": "beginner",
+          "tags": [
+            "analysis"
+          ]
+        },
+        {
+          "id": "cd8d751f-3d9a-439b-915c-275749b4dd66",
+          "text": "Identify every object person and element visible. Describe spatial relationships scale and notable details",
+          "recommended_model": "gemini_flash",
+          "difficulty": "beginner",
+          "tags": [
+            "description"
+          ]
+        },
+        {
+          "id": "0e399983-3e4c-4d4c-aa6b-1e6337793824",
+          "text": "Analyze the complete color palette - dominant colors accent colors harmony type and suggest complementary palettes",
+          "recommended_model": "claude_sonnet",
+          "difficulty": "intermediate",
+          "tags": [
+            "color"
+          ]
+        },
+        {
+          "id": "f8ac1812-d012-4519-b7c6-8a3b4834e6d8",
+          "text": "Evaluate this image for marketing and commercial use - visual impact audience appeal strengths and improvements",
+          "recommended_model": "claude_sonnet",
+          "difficulty": "intermediate",
+          "tags": [
+            "marketing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creative",
+      "label": "Creative Transformation",
+      "prompts": [
+        {
+          "id": "74496ad2-35e1-458f-a678-226fe6d14b03",
+          "text": "Transform into a fantasy illustration - add magical elements ethereal lighting and otherworldly atmosphere",
+          "recommended_model": "nano_banana_pro",
+          "difficulty": "intermediate",
+          "tags": [
+            "fantasy"
+          ]
+        },
+        {
+          "id": "7d7e30ab-6a8d-4f6f-bea7-1ac72c4c103d",
+          "text": "Cyberpunk version - neon lights rain reflections urban decay holographic overlays dystopian atmosphere",
+          "recommended_model": "nano_banana_pro",
+          "difficulty": "intermediate",
+          "tags": [
+            "scifi"
+          ]
+        },
+        {
+          "id": "60fc1362-6d4c-4e0f-b38a-d34f54e01443",
+          "text": "Vintage 1970s photograph aesthetic - film grain faded colors light leaks era-appropriate color grading",
+          "recommended_model": "nano_banana",
+          "difficulty": "beginner",
+          "tags": [
+            "vintage"
+          ]
+        },
+        {
+          "id": "4e20f962-f2d5-4eca-953d-7eede969820e",
+          "text": "Transform into a detailed architectural technical drawing - blueprint style with annotations and measurements",
+          "recommended_model": "nano_banana_pro",
+          "difficulty": "advanced",
+          "tags": [
+            "technical"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "holiday",
+      "label": "Holiday and Seasonal",
+      "prompts": [
+        {
+          "id": "dd2b9869-98d2-41cc-b39e-a137f4a71c33",
+          "text": "Transform into a magical Christmas scene - add snow falling warm golden window light decorated Christmas tree festive wreaths and red ribbons",
+          "recommended_model": "nano_banana_pro",
+          "difficulty": "beginner",
+          "tags": [
+            "christmas",
+            "holiday"
+          ]
+        },
+        {
+          "id": "4c7e31c0-db86-4ec7-bdd2-64dae1558d8d",
+          "text": "Apply a Halloween transformation - dark moody atmosphere orange and purple lighting carved pumpkins bats silhouetted against a full moon gothic fog",
+          "recommended_model": "nano_banana_pro",
+          "difficulty": "beginner",
+          "tags": [
+            "halloween",
+            "holiday"
+          ]
+        },
+        {
+          "id": "eb68ede2-1d5e-4de0-989d-23d8a023a588",
+          "text": "Transform into a vibrant Fourth of July celebration - add fireworks bursting in red white and blue American flags warm summer evening glow",
+          "recommended_model": "nano_banana_pro",
+          "difficulty": "beginner",
+          "tags": [
+            "4th of july",
+            "holiday"
+          ]
+        },
+        {
+          "id": "ffe8b006-e684-435c-8b5b-5a93ed5c8159",
+          "text": "Apply a Thanksgiving warmth aesthetic - golden harvest tones warm amber lighting autumn leaves in rich reds and oranges cozy and inviting atmosphere",
+          "recommended_model": "nano_banana",
+          "difficulty": "beginner",
+          "tags": [
+            "thanksgiving",
+            "holiday"
+          ]
+        },
+        {
+          "id": "5e4dd9e1-a2ae-4e19-998c-7cb9b84a78a8",
+          "text": "Transform into a Valentine Day romantic scene - soft pink and red bokeh lighting rose petals hearts warm candlelight glow dreamy soft focus",
+          "recommended_model": "nano_banana_pro",
+          "difficulty": "beginner",
+          "tags": [
+            "valentine",
+            "holiday"
+          ]
+        },
+        {
+          "id": "8a4910e6-a758-4bd3-b309-084bf2159bd0",
+          "text": "Apply a Hanukkah transformation - warm golden candlelight from a menorah blue and silver tones Star of David peaceful warm evening atmosphere",
+          "recommended_model": "nano_banana_pro",
+          "difficulty": "beginner",
+          "tags": [
+            "hanukkah",
+            "holiday"
+          ]
+        },
+        {
+          "id": "c4d4220a-dff0-4883-8398-cdf069e004ec",
+          "text": "Transform into a Diwali festival of lights scene - hundreds of glowing diyas oil lamps vibrant rangoli patterns warm golden and orange light festive and joyful",
+          "recommended_model": "nano_banana_pro",
+          "difficulty": "beginner",
+          "tags": [
+            "diwali",
+            "holiday"
+          ]
+        },
+        {
+          "id": "f4d65dd4-0f26-46d4-a2bc-a3de7d9d0fd6",
+          "text": "Apply a New Year Eve celebration aesthetic - champagne gold and silver tones confetti falling fireworks in the distance midnight countdown energy",
+          "recommended_model": "nano_banana_pro",
+          "difficulty": "beginner",
+          "tags": [
+            "new year",
+            "holiday"
+          ]
+        },
+        {
+          "id": "56b05119-41a7-48aa-bda5-28cc55c7faab",
+          "text": "Transform into a cozy winter holiday scene - snow covered landscape warm glowing cabin windows pine trees dusted with snow smoke rising from chimney",
+          "recommended_model": "nano_banana",
+          "difficulty": "beginner",
+          "tags": [
+            "winter",
+            "holiday"
+          ]
+        },
+        {
+          "id": "ae56978e-67d5-45e0-a64d-e11f949b9f5c",
+          "text": "Apply St. Patrick Day festive transformation - vibrant greens shamrocks golden light rays rainbow in background cheerful and celebratory mood",
+          "recommended_model": "nano_banana",
+          "difficulty": "beginner",
+          "tags": [
+            "st patricks",
+            "holiday"
+          ]
+        },
+        {
+          "id": "933cb4c2-da99-4517-984b-7b7c94a04e6a",
+          "text": "Transform into an Easter spring scene - pastel colors blooming flowers soft morning light colorful Easter eggs hidden in lush green grass",
+          "recommended_model": "nano_banana",
+          "difficulty": "beginner",
+          "tags": [
+            "easter",
+            "holiday"
+          ]
+        },
+        {
+          "id": "c3846d8f-d38d-4f9d-82de-05ef5af4ae3d",
+          "text": "Analyze this holiday image and describe all festive elements decorations mood lighting and cultural traditions represented",
+          "recommended_model": "claude_sonnet",
+          "difficulty": "beginner",
+          "tags": [
+            "analysis",
+            "holiday"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "birthday",
+      "label": "Birthday and Celebration",
+      "prompts": [
+        {
+          "id": "684ae32c-efa9-415a-a5c8-2e75f96ab818",
+          "text": "Transform this portrait into a festive birthday celebration photo - add colorful balloons in the background birthday banner confetti falling warm party lighting",
+          "recommended_model": "nano_banana_pro",
+          "difficulty": "beginner",
+          "tags": [
+            "birthday",
+            "celebration"
+          ]
+        },
+        {
+          "id": "7ef971b3-6180-4797-bff8-9021134dcd8f",
+          "text": "Create a glamorous birthday party atmosphere - gold and rose gold balloons elegant floral arrangements sparkling bokeh lights champagne celebration mood",
+          "recommended_model": "nano_banana_pro",
+          "difficulty": "beginner",
+          "tags": [
+            "birthday",
+            "glamour"
+          ]
+        },
+        {
+          "id": "9087a82b-ff2e-4e31-a1f9-e15b382e07cc",
+          "text": "Transform into a kids birthday party scene - bright primary colors cartoon balloons streamers birthday cake with candles joyful and energetic atmosphere",
+          "recommended_model": "nano_banana",
+          "difficulty": "beginner",
+          "tags": [
+            "birthday",
+            "kids"
+          ]
+        },
+        {
+          "id": "e557bc5f-7119-4e0c-af48-61a2c495fb0a",
+          "text": "Apply a milestone birthday transformation - elegant sophisticated atmosphere silver and gold accents milestone number prominently displayed celebratory but refined",
+          "recommended_model": "nano_banana_pro",
+          "difficulty": "beginner",
+          "tags": [
+            "birthday",
+            "milestone"
+          ]
+        },
+        {
+          "id": "33e01be4-1b6e-41af-94c3-153a6ff979d2",
+          "text": "Transform into a surprise party scene - dimly lit room transitioning to bright celebration confetti explosion balloons dropping joyful atmosphere",
+          "recommended_model": "nano_banana_pro",
+          "difficulty": "intermediate",
+          "tags": [
+            "birthday",
+            "surprise"
+          ]
+        },
+        {
+          "id": "60751d23-2eb9-4b69-b6ad-7dbe21073b66",
+          "text": "Apply a garden birthday party aesthetic - outdoor summer setting floral decorations pastel color palette fairy lights strung overhead elegant and cheerful",
+          "recommended_model": "nano_banana",
+          "difficulty": "beginner",
+          "tags": [
+            "birthday",
+            "garden"
+          ]
+        },
+        {
+          "id": "54f949bd-fd89-4348-94c5-38c35bbf4dba",
+          "text": "Transform into a tropical birthday celebration - vibrant tropical flowers flamingo and pineapple decorations bright sunny atmosphere beach party vibes",
+          "recommended_model": "nano_banana",
+          "difficulty": "beginner",
+          "tags": [
+            "birthday",
+            "tropical"
+          ]
+        },
+        {
+          "id": "6ba3a7ca-7d9e-44c3-ac64-f26ef26a7eb4",
+          "text": "Apply a vintage birthday aesthetic - retro color grading old fashioned decorations film grain warm nostalgic tones timeless celebration feel",
+          "recommended_model": "nano_banana",
+          "difficulty": "beginner",
+          "tags": [
+            "birthday",
+            "vintage"
+          ]
+        },
+        {
+          "id": "3f820dc7-5ebf-41c4-86dd-e077431c3398",
+          "text": "Transform into a luxury birthday celebration - high end venue crystal chandeliers white and gold color scheme elegant floral centerpieces black tie atmosphere",
+          "recommended_model": "nano_banana_pro",
+          "difficulty": "beginner",
+          "tags": [
+            "birthday",
+            "luxury"
+          ]
+        },
+        {
+          "id": "c38720fd-a731-4b4b-889a-9571fb71e01f",
+          "text": "Create a photorealistic birthday cake design that reflects the personality style and interests shown in this image",
+          "recommended_model": "nano_banana_pro",
+          "difficulty": "intermediate",
+          "tags": [
+            "birthday",
+            "cake"
+          ]
+        },
+        {
+          "id": "0c287f2c-7a46-46ed-8bac-adbf611793c5",
+          "text": "Transform this image into a birthday greeting card design - add warm celebratory typography decorative borders balloons and confetti warm heartfelt mood",
+          "recommended_model": "nano_banana_pro",
+          "difficulty": "beginner",
+          "tags": [
+            "birthday",
+            "card"
+          ]
+        },
+        {
+          "id": "856aba98-f89b-496a-b16b-0eb9fefc0bea",
+          "text": "Analyze this celebration image - identify the occasion type decorations used color scheme mood estimated number of guests and venue style",
+          "recommended_model": "claude_sonnet",
+          "difficulty": "beginner",
+          "tags": [
+            "birthday",
+            "analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "label": "Security and Technical",
+      "prompts": [
+        {
+          "id": "7c75b63b-0ca6-4f74-98d7-49c47bef7b23",
+          "text": "Analyze this technical diagram - describe all components data flows architecture decisions and security implications",
+          "recommended_model": "claude_sonnet",
+          "difficulty": "intermediate",
+          "tags": [
+            "security",
+            "analysis"
+          ]
+        },
+        {
+          "id": "5f7da0cc-3f17-45df-ad3b-0086055fe331",
+          "text": "Extract and transcribe all visible text from this image into clean organized properly formatted markdown",
+          "recommended_model": "gemini_flash",
+          "difficulty": "beginner",
+          "tags": [
+            "ocr"
+          ]
+        },
+        {
+          "id": "3b15c55d-2ca8-4cf2-be0d-5ba9732504b8",
+          "text": "This is a network or system diagram - identify all components connections protocols and potential vulnerabilities",
+          "recommended_model": "claude_sonnet",
+          "difficulty": "advanced",
+          "tags": [
+            "security",
+            "network"
+          ]
+        }
+      ]
+    }
+  ]
+}
